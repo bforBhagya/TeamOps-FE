@@ -1,0 +1,26 @@
+.beautiful-button {
+    background-color: rgb(255, 0, 0); /* Change to your desired button background color */
+    color: #fff; /* Change to your desired text color */
+    padding: 4px ; /* Adjust padding to your liking */
+    border: none; /* Remove the button border if needed */
+    border-radius: 5px; /* Add rounded corners to the button */
+    text-decoration: none; /* Remove the default underline on links */
+    margin: 20px;
+    font-size: 16px; /* Adjust the font size to your liking */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  
+    width: 150px;
+    /* Add a hover effect */
+    transition: background-color 0.5s;
+    transition: color 0.3s;
+  }
+  
+  .beautiful-button:hover {
+    background-color: #252525; 
+    /* Change to your desired hover color */
+  }
+
+  .navbar{
+    background-color: rgb(73, 73, 73);
+  }
+  
