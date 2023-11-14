@@ -12,6 +12,11 @@
       <td>{{ employee.firstName }}</td>
       <td>{{ employee.lastName }}</td>
       <td>{{ employee.email }}</td>
+      <td>
+        <button (click)="updateEmployee(employee.id)" class="btn btn-info">
+          Update Employee
+        </button>
+      </td>
     </tr>
   </tbody>
 </table>
